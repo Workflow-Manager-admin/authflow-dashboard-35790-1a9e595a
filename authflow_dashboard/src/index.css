@@ -1,0 +1,8 @@
+/* Base resets and coding styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
