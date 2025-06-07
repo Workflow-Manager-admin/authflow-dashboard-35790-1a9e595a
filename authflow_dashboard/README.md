@@ -11,6 +11,17 @@ This project provides a minimal React template with a clean, modern UI and minim
 
 ## Getting Started
 
+**Supabase Setup:**
+
+To enable authentication, you must create a `.env` file in the `authflow_dashboard` directory with your Supabase credentials:
+
+```
+REACT_APP_SUPABASE_URL=https://rlnkyrtrvgvgcajqyfhe.supabase.co
+REACT_APP_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJsbmt5cnRydmd2Z2...
+
+# Replace these with your own project settings if desired
+```
+
 In the project directory, you can run:
 
 ### `npm start`
